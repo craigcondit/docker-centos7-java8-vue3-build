@@ -1,4 +1,4 @@
-FROM insideo/centos7-java11-build:latest
+FROM insideo/centos7-java8-build:latest
 MAINTAINER ccondit@randomcoder.com
 
 ENV PATH=/root/.npm-packages/bin:/opt/node/bin:/opt/java/jdk11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
